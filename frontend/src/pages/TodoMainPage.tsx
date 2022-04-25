@@ -1,13 +1,15 @@
 import Header from "../components/Header";
 import {useTodos} from "../hooks/TodoHooks";
 import TodoList from "../components/TodoList";
+import AddTodoForm from "../components/AddTodoForm";
+import TodoGalery from "../components/TodoGalery";
 
 
 export default function TodoMainPage() {
-    const todos = useTodos();
 
     return <div>
         <Header/>
-        <TodoList todos={todos}/>
+        <AddTodoForm/>
+        <TodoGalery/>
     </div>
 }
