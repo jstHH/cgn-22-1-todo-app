@@ -1,5 +1,4 @@
 import TodoList from "./TodoList";
-import {useDoneTodos, useOpenTodos, useProgressTodos} from "../hooks/TodoFilterHooks";
 import {useTodos} from "../hooks/TodoHooks";
 import "./TodoGalery.css"
 

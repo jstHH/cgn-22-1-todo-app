@@ -1,6 +1,4 @@
 import {useTodo} from "../hooks/TodoHooks";
-import {useNavigate} from "react-router-dom";
-import {useState} from "react";
 import TodoDetailsForm from "./TodoDetailsForm";
 
 type TodoDetailsViewProps = {

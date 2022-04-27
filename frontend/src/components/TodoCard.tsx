@@ -1,6 +1,5 @@
 import {Todo} from "../model/Todo";
 import {deleteTodo, updateTodo} from "../services/TodoApiService";
-import {EventHandler} from "react";
 import {useNavigate} from "react-router-dom";
 
 type TodoCardProps = {
