@@ -1,5 +1,4 @@
-import {Todo} from "../model/Todo";
-import {useTodo} from "../hooks/TodoHooks";
+
 import {useParams} from "react-router-dom";
 import TodoDetailsView from "../components/ToDoDetailsView";
 

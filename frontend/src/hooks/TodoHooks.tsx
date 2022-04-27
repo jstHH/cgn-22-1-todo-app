@@ -20,7 +20,7 @@ export function useTodo(id:string) {
     useEffect(() => {
         getTodo(id)
             .then(body => setTodo(body))
-    }, [])
+    },)
 
     return todo;
 }
