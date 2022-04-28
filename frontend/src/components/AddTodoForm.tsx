@@ -4,7 +4,6 @@ import {addNewTodo} from "../services/TodoApiService";
 
 
 export default function AddTodoForm() {
-    const id:string = ""
     const [description, setDescription] = useState<string>("")
     const [status, setStatus] = useState<string>("OPEN")
 
