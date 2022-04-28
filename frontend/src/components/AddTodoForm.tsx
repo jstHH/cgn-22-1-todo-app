@@ -9,7 +9,7 @@ export default function AddTodoForm() {
     const [status, setStatus] = useState<string>("OPEN")
 
     function onSubmit() {
-        const newTodo:Todo = {id, description, status}
+        const newTodo:Todo = {description, status}
         addNewTodo(newTodo);
     }
 

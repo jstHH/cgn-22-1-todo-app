@@ -21,18 +21,24 @@ export default function TodoCard({todo}: TodoCardProps) {
 
     function startProgress (){
         todo.status = "PROGRESS";
-        updateTodo(todo.id, todo);
+        if (todo.id) {
+            updateTodo(todo.id, todo);
+        }
         window.location.reload()
     }
 
     function finishProgress (){
         todo.status = "DONE";
-        updateTodo(todo.id, todo);
+        if (todo.id) {
+            updateTodo(todo.id, todo);
+        }
         window.location.reload()
     }
 
     function removeTodo () {
-        deleteTodo(todo.id);
+        if (todo.id) {
+            deleteTodo(todo.id);
+        }
         window.location.reload()
     }
 
